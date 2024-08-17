@@ -8,6 +8,8 @@ import { Label } from 'ng2-charts';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+
+
   public barChartOptions: ChartOptions = {
     responsive: true,
     scales: { x: { stacked: true }, y: { stacked: true } }
