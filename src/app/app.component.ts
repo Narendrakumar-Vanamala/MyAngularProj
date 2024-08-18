@@ -7,6 +7,8 @@ import { Label } from 'ng2-charts';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent implements OnInit{
   public barChartOptions: ChartOptions = {
     responsive: true,
